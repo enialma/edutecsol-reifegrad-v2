@@ -6,14 +6,14 @@ export const COMPANY_SUBTITLE  = 'education technology solutions'
 export const ASSESSMENT_TITLE  = 'Strategische Schulführung im digitalen Wandel'
 
 // Primärkontakt für Schulen: Enikö (EDUTECSOL) – die "Insiderin"
-export const CONTACT_URL       = 'https://www.edutecsol.ch/kontakt'  // TODO: anpassen
+export const CONTACT_URL       = 'https://www.edutecsol.ch/contact-us/'
 export const CONTACT_PERSON    = 'Enikö Parrag'
-export const CONTACT_PHONE     = '+41 XX XXX XX XX'                  // TODO: anpassen
-export const CONTACT_EMAIL     = 'enikoe.parrag@edutecsol.ch'        // TODO: anpassen
+export const CONTACT_PHONE     = '+41 76 340 82 45'
+export const CONTACT_EMAIL     = 'info@edutecsol.ch'
 export const PARTNER_NAME      = 'mitPlan GmbH'
 
 // Externe Anschluss-Links
-export const CALENDLY_URL      = 'https://calendly.com/edutecsol/30min'  // TODO: anpassen
+export const CALENDLY_URL      = 'https://calendly.com/edutecsol-gmbh/reifegrad-klarungsgesprach'
 export const KLAUSUR_URL       = 'https://www.mitplan.ch/angebote/weiterbildungen/strategische-schulfuehrung-im-digitalen-wandel-139'
 
 // ─────────────────────────────────────────────
