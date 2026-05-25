@@ -424,7 +424,7 @@ export default function Home() {
                 <ActionCard
                   icon="☕"
                   title="30-Minuten-Klärungsgespräch (kostenlos)"
-                  desc="Wir gehen gemeinsam durch eure Ergebnisse und überlegen, was sinnvolle nächste Schritte wären – ohne Verkaufsdruck."
+                  desc="Wir gehen gemeinsam durch Ihre Ergebnisse und überlegen, was sinnvolle nächste Schritte wären – ohne Verkaufsdruck."
                   buttonText="Termin buchen"
                   buttonHref={CALENDLY_URL}
                   primary={false}
@@ -434,7 +434,7 @@ export default function Home() {
                 <ActionCard
                   icon="🎯"
                   title="Klausurtagung 'Strategische Schulführung'"
-                  desc="Ein strukturierter Arbeitstag für euer Führungsteam – aufbauend auf eurer Diagnose. Mit mitPlan & EDUTECSOL."
+                  desc="Ein strukturierter Arbeitstag für Ihr Führungsteam – aufbauend auf Ihrer Diagnose. Mit mitPlan & EDUTECSOL."
                   buttonText="Mehr erfahren"
                   buttonHref={KLAUSUR_URL}
                   primary={false}

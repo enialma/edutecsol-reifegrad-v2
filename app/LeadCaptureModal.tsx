@@ -124,7 +124,7 @@ export default function LeadCaptureModal({ open, onClose, onSuccess, overallLeve
             Ausführliche PDF-Auswertung
           </h2>
           <p style={{ fontSize: "0.92rem", color: "var(--ink-3)", lineHeight: 1.5 }}>
-            Wir senden euch die PDF mit Interpretation pro Dimension und konkreten Handlungsempfehlungen –
+            Wir senden Ihnen die PDF mit Interpretation pro Dimension und konkreten Handlungsempfehlungen –
             sofort als Download und zusätzlich per Mail.
           </p>
         </div>
@@ -149,10 +149,9 @@ export default function LeadCaptureModal({ open, onClose, onSuccess, overallLeve
               style={{ marginTop: 3, accentColor: "var(--petrol)", flexShrink: 0 }}
             />
             <span>
-              Ich bin einverstanden, dass mich Enikö Parrag in den nächsten 14 Tagen
-              einmal kontaktiert, um zu fragen, ob wir Unterstützung wünschen.
+              Gerne kontaktieren Sie mich in den nächsten Tagen.
               <em style={{ display: "block", marginTop: 4, color: "var(--ink-3)", fontStyle: "normal", fontSize: "0.78rem" }}>
-                Optional. Ohne Häkchen erhältst du nur die PDF, keine weitere Kontaktaufnahme.
+                Optional. Ohne Häkchen erhalten Sie nur die PDF, keine weitere Kontaktaufnahme.
               </em>
             </span>
           </label>
@@ -186,7 +185,7 @@ export default function LeadCaptureModal({ open, onClose, onSuccess, overallLeve
           <p style={{
             marginTop: 16, fontSize: "0.75rem", color: "var(--ink-3)", lineHeight: 1.4,
           }}>
-            Eure Daten werden ausschliesslich für den PDF-Versand und – falls oben angekreuzt –
+            Ihre Daten werden ausschliesslich für den PDF-Versand und – falls oben angekreuzt –
             für eine einmalige Kontaktaufnahme verwendet. Keine Newsletter, keine Werbung,
             keine Weitergabe an Dritte. Datenschutz nach revDSG.
           </p>

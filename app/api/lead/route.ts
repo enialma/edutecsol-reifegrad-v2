@@ -87,12 +87,12 @@ export async function POST(req: Request) {
     const htmlBody = `
       <div style="font-family: Arial, sans-serif; color: #1e3a4a; max-width: 560px; line-height: 1.55;">
         <h2 style="color: #123143; font-size: 20px; margin-bottom: 12px;">
-          Eure Reifegrad-Diagnose
+          Ihre Reifegrad-Diagnose
         </h2>
-        <p>Liebe/r ${escapeHtml(body.firstName)}</p>
+        <p>Guten Tag ${escapeHtml(body.firstName)}</p>
         <p>
-          danke, dass ihr euch die Zeit für die Diagnose genommen habt.
-          Im Anhang oder als Download findet ihr die ausführliche PDF-Auswertung
+          vielen Dank, dass Sie sich die Zeit für die Diagnose genommen haben.
+          Im Anhang oder als Download finden Sie die ausführliche PDF-Auswertung
           mit Interpretation und Handlungsempfehlungen pro Dimension.
         </p>
         <p>${followUpLine}</p>
@@ -106,10 +106,10 @@ export async function POST(req: Request) {
         <p style="font-size: 14px; color: #5a7a8a;">
           Falls die Diagnose im Team Diskussionen ausgelöst hat: Wir bieten dafür
           die Klausurtagung <em>"Strategische Schulführung im digitalen Wandel"</em> an –
-          einen strukturierten Arbeitstag, der direkt auf eurer Diagnose aufbaut.
+          einen strukturierten Arbeitstag, der direkt auf Ihrer Diagnose aufbaut.
         </p>
         <p style="font-size: 14px; color: #5a7a8a;">
-          Herzlich,<br/>
+          Mit freundlichen Grüssen,<br/>
           Enikö Parrag<br/>
           EDUTECSOL GmbH
         </p>
@@ -126,7 +126,7 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         sender: { email: fromEmail, name: fromName },
         to: [{ email: body.email, name: body.firstName }],
-        subject: "Eure Reifegrad-Diagnose · EDUTECSOL",
+        subject: "Ihre Reifegrad-Diagnose · EDUTECSOL",
         htmlContent: htmlBody,
       }),
     });
